@@ -32,7 +32,7 @@ resource "google_compute_instance" "nucleus2" {
 
 resource "google_compute_instance" "nucleus3" {
 
-    name = "atom3"
+    name = var.vm_name
     machine_type = "n1-standard-1"
 
 
