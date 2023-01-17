@@ -1,6 +1,6 @@
 resource "google_compute_instance" "nucleus2" {
 
-    name = "atom2"
+    name = var.vm_name
     machine_type = "n1-standard-1"
 
 
